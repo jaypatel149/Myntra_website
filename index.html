@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Myntra website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid  desktop-container">
+        <div class="row allHeader py-2">
+            <div class="col-6  d-flex align-items-center ">
+                <a href="#" class="mx-5"><img src="./images/myntra.svg" style="width: 3rem; height: 3rem;" alt="myntra"></a>
+                <ul class="list-unstyled d-flex align-items-center justify-content-end  m-0 gap-4">
+                    <li>MEN</li>
+                    <li>WOMEN</li>
+                    <li>KIDS</li>
+                    <li>HOME&LIVINNG</li>
+                    <li>BEAUTY</li>
+                    <li class=" position-relative">
+                        <a href="#" style="text-decoration: none; color: black;">STUDIO</a>
+                        <div class=" top-icon position-absolute d-flex justify-content-center align-items-center"><strong>NEW</strong></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4 d-flex align-items-center">
+                <div class="input-group flex-nowrap justify-content-center">
+                    <span class="input-group-text" id="addon-wrapping" style="background: none;"><img src="./images/search.svg" style="width: 1.2rem; height: 1.2rem; color: #CBCBCB;" alt=""></span>
+                    <input type="text" class="form-control" placeholder="Search for products, brands and more" aria-label="Username" aria-describedby="addon-wrapping" style="border-left: none; font-size: .8rem; color: #CBCBCB; cursor: pointer;">
+                </div>
+            </div>
+            <div class="col-2 d-flex justify-content-center align-items-center gap-4">
+                <div class="d-flex flex-column">
+                    <span class="d-flex align-items-center justify-content-center"> <ion-icon name="person-outline"></ion-icon></span>
+                    <span class="d-flex align-items-center justify-content-center" style="font-size: .7rem;">Profile</span>
+                </div>
+                <div class="d-flex flex-column">
+                    <span class="d-flex align-items-center justify-content-center "><ion-icon name="heart-outline"></ion-icon></span>
+                    <span class="d-flex align-items-center justify-content-center" style="font-size: .7rem;">Wishlist</span>
+                </div>
+                <div class="d-flex flex-column">
+                    <span class="d-flex align-items-center justify-content-center"><ion-icon name="bag-outline"></ion-icon></span>
+                    <span class="d-flex align-items-center justify-content-center" style="font-size: .7rem;">Bag</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 ">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/T-Shirts_Desk.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/banner.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Handbags--Wallets---Clutches_Dk.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid py-4">
+        <h3 class="p-4">DEAL OF THE DAY</h3>
+        <div class="row ">
+            <div class="col-2">
+                <img src="./images/deal/Extra-15--Off--1-.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/deal/Formal-Shoes.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/deal/Handbags--4-.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/deal/Luxe-Beauty-3.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/deal/sare1-.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/deal/Shorts---Skirts.webp" class="imgResposive " alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  py-4">
+        <h3 class="p-4  mb-3">BEST OF MYNTRA EXCLUSIVE BRANDS</h3>
+        <div class="row">
+            <div class="col-2">
+                <img src="./images/wears/Dressberry-_AAY_-_more.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/Dresses_-_Dressberry-_Chemistry_-_more.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/HOP_6.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/HRX-_7.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/HRX_4.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/HRX_Unisex1.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/Jeans-5.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/Kurta_sets-more.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/Kurtas-more2.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/M-H_1.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/M-H_2.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/wears/M-H_8.webp" class="imgResposive " alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4">
+        <h3 class="p-4  mb-3">TOP PICKS</h3>
+        <div class="row">
+            <div class="col-2">
+                <img src="./images/top/Dresses-3.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/top/Kurta-sets-1.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/top/Kurtas-2.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/top/Men-T-shirt-6.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/top/Men-Trousers-7.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/top/Mens-Shirts-5.webp" class="imgResposive " alt="">
+            </div>
+        </div>
+    </div>
+    <!-- CATEGORIES TO BAG -->
+    <div class="container-fluid py-4">
+        <h3 class="p-4  mb-3">CATEGORIES TO BAG</h3>
+        <div class="row space-2">
+            <div class="col-2">
+                <img src="./images/catagery/Kurta-Sets-1.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Hangbags-2.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Shirts-3.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/T-Shirts-4.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Sarees-5.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Jewellery-6.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Sarees-7.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Teens-Wear-8.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Beauty-9.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Plus-Size-Styles_10.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Jeans-11.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Sports-Shoes-12.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Trousers-13.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Casual-Shoes-14.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Track-Pants-15.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Innerwear-16.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Bath-Essentials-17.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/catagery/Trousers_18.webp" class="imgResposive " alt="">
+            </div>
+        </div>
+    </div>
+    <!-- DEALS ON TOP BRANDS -->
+    <div class="container-fluid py-4">
+        <h3 class="p-4  mb-3">DEALS ON TOP BRANDS</h3>
+        <div class="row space-2">
+            <div class="col-2">
+                <img src="./images/brands/Crocs-1.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Nike-2.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Tommy-Hilfiger-7.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Men-s-Apparel---Roadster-8.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Only-9.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Puma-3.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/unnamed--4-.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/unnamed--5-.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/USPA-6.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Levis-10.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/BIBA-11.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Veromoda-12.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/UCB-13.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/HRX-by-Hrithik-Roshan-14.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/image_jpeg1938580873.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/dressberrywomen-16.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Ethnic-Wear---Anouk-17.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/brands/Cutecumber-18.webp" class="imgResposive " alt="">
+            </div>
+        </div>
+    </div>
+    <!-- BRANDS AT SLASHED PRICES -->
+    <div class="container-fluid py-4">
+        <h3 class="p-4  mb-3">BRANDS AT SLASHED PRICES</h3>
+        <div class="row space-2">
+            <div class="col-2">
+                <img src="./images/slades/All-about-you.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Dressberry-6.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Sangria-1.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Roadster_HP-2.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Chemistry-4.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Anouk--5-.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/House-of-Pataudi-7.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Kook-N-Keech-8.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Harvard-13.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Moda-Rapido_10.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/Moda-Rapido_11.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/slades/NVICTUS-13.webp" class="imgResposive " alt="">
+            </div>
+        </div>
+    </div>
+    <!-- BEST BUYS -->
+    <div class="container-fluid py-4">
+        <h3 class="p-4  mb-3">BEST BUYS</h3>
+        <div class="row">
+            <div class="col-2">
+                <img src="./images/buys/Heels-1.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Tops-2.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Flats-3.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Sports-Shoes-4.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Shorts-5.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Sarees-6.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Innerwear-7.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Sweaters_8.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Makeup-Essentials-9.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Lingerie-10.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Belts-_-Wallets-11.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/buys/Formal-Shoes-12.webp" class="imgResposive " alt="">
+            </div>
+        </div>
+    </div>
+    <!-- MYNTRA LUXE -->
+    <div class="container-fluid py-4">
+        <h3 class="p-4  mb-3">MYNTRA LUXE</h3>
+        <div class="row space-2">
+            <div class="col-2">
+                <img src="./images/laxe/HP-DKNY-1.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-Junghans-2.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-Luxe-3.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-Oris-4.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-RaymondWeil-5.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-Movado-6.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-Hackett-7.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-versace-8.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/MyntraLuxe-Tissot-9.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-FredPerry-10.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/MyntraLuxe-ExploreStore-11.webp" class="imgResposive " alt="">
+            </div>
+            <div class="col-2">
+                <img src="./images/laxe/HP-POLORalphLauren-12.webp" class="imgResposive " alt="">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

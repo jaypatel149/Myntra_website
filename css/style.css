@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.desktop-container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    background-color: #fff;
+}
+
+ul li {
+    font-size: .8rem;
+    color: black;
+}
+
+.top-icon {
+    top: -8px;
+    width: 1.7rem;
+    height: 0.6rem;
+    color: #E83647;
+    font-size: .5rem;
+    left: 2.7rem;
+    border-radius: 18%;
+}
+
+.img-responsive {
+    width: 90%;
+    height: auto;
+}
+
+.imgResposive {
+    width: 100%;
+    height: auto;
+}
+
+.space-2>* {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
