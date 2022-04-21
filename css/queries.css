@@ -1,0 +1,177 @@
+@media (max-width: 375px) {
+    .myntra {
+        width: 9rem;
+    }
+    .gender li {
+        display: none !important;
+    }
+    .input-group {
+        display: none !important;
+    }
+    .profileView {
+        font-size: 4rem;
+    }
+    .t1 {
+        display: none !important;
+    }
+    h3 {
+        font-size: 5rem;
+    }
+    .imageRow {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        gap: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .footerTxt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .t2 {
+        font-size: 4rem;
+    }
+    .t3 {
+        font-size: 4rem;
+    }
+    .gstore {
+        width: 24rem;
+    }
+    .meadiaIcons img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .braded {
+        display: none !important;
+    }
+    .beutyProduct {
+        display: none !important;
+    }
+    .coutryName {
+        display: none !important;
+    }
+    .f3 {
+        display: none !important;
+    }
+}
+
+
+/* ----------------804px ----------------------------*/
+
+@media (max-width: 804px) {
+    .myntra {
+        width: 10rem;
+    }
+    .gender li {
+        display: none !important;
+    }
+    .form-control {
+        font-size: 2rem;
+    }
+    .profileView {
+        font-size: 4rem;
+    }
+    .t1 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 5rem;
+    }
+    .footerTxt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .t2 {
+        font-size: 4rem;
+    }
+    .t3 {
+        font-size: 4rem;
+    }
+    .gstore {
+        width: 24rem;
+    }
+    .meadiaIcons img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .braded {
+        display: none !important;
+    }
+    .beutyProduct {
+        display: none !important;
+    }
+    .coutryName {
+        display: none !important;
+    }
+    .f3 {
+        display: none !important;
+    }
+}
+
+
+/* ----------760px */
+
+@media (max-width: 760px) {
+    .myntra {
+        width: 9rem;
+    }
+    .gender li {
+        display: none !important;
+    }
+    .input-group {
+        display: none !important;
+    }
+    .profileView {
+        font-size: 4rem;
+    }
+    .t1 {
+        display: none !important;
+    }
+    h3 {
+        font-size: 5rem;
+    }
+    .imageRow {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        gap: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .footerTxt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .t2 {
+        font-size: 4rem;
+    }
+    .t3 {
+        font-size: 4rem;
+    }
+    .gstore {
+        width: 24rem;
+    }
+    .meadiaIcons img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .braded {
+        display: none !important;
+    }
+    .beutyProduct {
+        display: none !important;
+    }
+    .coutryName {
+        display: none !important;
+    }
+    .f3 {
+        display: none !important;
+    }
+}

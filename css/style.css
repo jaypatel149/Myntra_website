@@ -21,6 +21,14 @@ body {
     background-color: #fff;
 }
 
+.myntra {
+    width: 3rem;
+}
+
+.t1 {
+    font-size: .7rem;
+}
+
 ul li {
     font-size: .8rem;
     color: black;
@@ -41,6 +49,13 @@ ul li {
     height: auto;
 }
 
+.form-control {
+    border-left: none;
+    font-size: .8rem;
+    color: #CBCBCB;
+    cursor: pointer;
+}
+
 .imgResposive {
     width: 100%;
     height: auto;
@@ -49,4 +64,40 @@ ul li {
 .space-2>* {
     padding-left: 0% !important;
     padding-right: 0% !important;
+}
+
+.meadiaIcons img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.details {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #696b79;
+}
+
+.products span {
+    font-size: .8rem;
+    color: #696b79;
+}
+
+.numbers {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #696b79;
+}
+
+ol {
+    font-size: .7rem;
+    color: #696b79;
+}
+
+ol li p {
+    font-size: .8rem;
+    color: #696b79;
+}
+
+.appGoogle {
+    width: 8rem;
 }
